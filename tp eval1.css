@@ -1,17 +1,12 @@
-#bloc_page{
-	width:900px;
-	margin:auto;
 
-	color:#606060;
-}
 
 body{
 	margin:auto;
 	background: #0B1616;
-	
+	width: 100%;
 
 }
-/*navigation*/
+	/*navigation*/
 
 header{
 	background: #CECECE;
@@ -21,67 +16,67 @@ header{
 nav{
 	display:flex;
     justify-content: space-between;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 10px;
-    marker-top: 10px
-    height:350px;
-    
+    margin-left: 150px;
+    margin-right: 150px;
+    height:200px;
+    }
+#first{
+padding-top: 80px;
+border-left: 2px solid #E7A854;
 }
-
-.partie1{
-	margin:5px;
-	border: 1px black solid;
-	display:flex;
-	justify-content: space-between;
-	width: 350px;
-	height: 60px;
-
-
-}
-
-nav div ul{
-
-	display:flex;
-	justify-content: space-between;
-	width: 280px;
-	list-style-type: none;
-}
-
-
 b{
 	color: 
 	#E7A854
 }
-li{
-	border:0.4px solid #848484;
-	box-shadow: 2px 0.9px 0.9px #5A5E6B; 
+#second{
+	padding-top: 10px;
+}
+
+.partie1{
+	border: 1px black solid;
+	display:flex;
+	justify-content: space-between;
+	height: 60px;
+
+}
+nav div ul{
+    display:flex;
+    list-style-type: none;
+    margin: 70px;
+    padding-bottom: 10px;
+    
+}
+
+
+nav div.bourdures ul li {
+	border:0.2px solid #848484;
+	box-shadow: 0.9px 0.9px 0.9px #5A5E6B;
+	border-left: 2px solid;
+	margin: 20px;
+    
+
 	 }
-h4{
+h2{
 	float: right;
-	margin: 8px ;}
-
+	margin: 10px ;
+	padding: 5px;
 }
-div #logo-page{
-	
-	margin: 100px!important
-}
-
+/*contenue*/
 section{
 	
 	background: #EFEFEF;
-	padding: 0px;
-	margin: 150px;
+	width: 80%;
+	margin: auto;
+	position:relative;
+	padding-bottom: 50px;
+
+	
+}
 
 
-}
-#first{
-padding-top:50px; 
-	margin-bottom: 2px;
-}
 #banniere_image{
    height: 230px;
-   margin-top:0px;
+   margin-top:10px;
    background-image: url(image/header-page-catalogue.png);
 }
 .vente{
@@ -90,27 +85,86 @@ padding-top:50px;
 }
 .gant{
   border: 0.4px solid #848484;
-  margin: 65px;
+  width: 365px;
+  padding: 0px;
+  margin:50px;
   position: relative;
   box-shadow: 0.5px 0.9px 0.9px #5A5E6B; 
 }
 #gant-discription h5{
 	position: absolute;
 	bottom: 0;
-	
-    
+	} 
+
+.details{
+	position:absolute;
+	color:white;
+	background: black;
+	margin: 15px;
+	width: 150px;
+	padding: 5px;
+	text-align: center;
 
 }
+
 h5{
 	text-align: center;
-	
 }
 
+
+/*footer*/
 footer{
 	color:white;
 	background: #5A5E6B;
+    height: 500px;
+    padding: 0px;
 
 }
-.menu-foot1{
+.menu-foot0 ul{
 	display: flex;
+	margin-top: 0;
+	margin-right: 350px;
+	margin-left: 350px;
+	background: white;
+	color:black;
+	justify-content: center;
+
+}
+.menu-foot0 ul li{
+	margin: 20px;
+
+}
+
+.menu-foot1 ul{
+	display: flex;
+	justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    height: 215px;
+    list-style-type: none;
+}
+.menu-foot1 ul li{
+	padding: 10px;
+	margin: 5px;
+}
+.menu-foot2 ul{
+	display: flex;
+	justify-content: space-between;
+   list-style-type: none;
+   width:300px;
+   margin: auto;
+   height: 100px;
+   
+
+ 
+}
+.menu-foot2 ul li{
+	margin: 20px;
+	padding: 20px;
+}
+hr{width: 500px;
+text-align: center;}
+h6{
+	text-align: center;
 }
